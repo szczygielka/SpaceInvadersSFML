@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{f5ca1a91-62d5-4a35-9f72-628e09041720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manages">
+      <UniqueIdentifier>{dc73045d-dcdd-43b1-b873-1123a4dbf333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{c9758bf6-420f-4fd1-93d8-ab5bee64561f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{0d91aabf-c68e-44db-8f5a-0cb62f181fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\GameStates">
+      <UniqueIdentifier>{25ece8b7-858e-4ac1-9f9a-e30f304068a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\GameStates\Menu">
+      <UniqueIdentifier>{f8516658-a013-448c-b760-7e2f2fba122c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\GameObjects">
+      <UniqueIdentifier>{01520af8-ac8f-48a3-b981-2a80ab147440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameStates">
+      <UniqueIdentifier>{e6d114d4-42bd-43d3-bff8-25ea0f9e1045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameStates\Menu">
+      <UniqueIdentifier>{2fb9f193-2dc3-4756-984e-2beeeb7c6c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObjects">
+      <UniqueIdentifier>{fbc0f814-201c-4ca1-ba4b-9a9544d2b8f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\BaseObjects">
+      <UniqueIdentifier>{8cc83b49-9f44-4ec6-96ac-7f6c0414faf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\BaseObjects">
+      <UniqueIdentifier>{daed6ba7-9222-4f4d-a249-4ed3b81320cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\GameObjects\SimpleObject">
+      <UniqueIdentifier>{e19c54ce-6bd4-43ae-8bcb-79e075b6c866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObjects\SimpleObject">
+      <UniqueIdentifier>{a2090720-65c2-421a-9fc0-d0ade36323d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObjects\TextObject">
+      <UniqueIdentifier>{906873f6-1d5f-42ae-adab-644d471efcd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\GameObjects\TextObject">
+      <UniqueIdentifier>{bfcad301-d385-45d6-9472-4bb9bbb3fc18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OptionMenuState.cpp">
+      <Filter>Source Files\Game\GameStates\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Source Files\Game\GameStates\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>Source Files\Game\GameStates\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Source Files\Manages</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMovableObject.cpp">
+      <Filter>Source Files\Game\BaseObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMenuState.cpp">
+      <Filter>Source Files\Game\BaseObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Lifebar.cpp">
+      <Filter>Source Files\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EndGameState.cpp">
+      <Filter>Source Files\Game\GameStates\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source Files\Game\GameObjects\SimpleObject</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBullet.cpp">
+      <Filter>Source Files\Game\GameObjects\SimpleObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <Filter>Source Files\Game\GameObjects\SimpleObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Life.cpp">
+      <Filter>Source Files\Game\GameObjects\SimpleObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGameObject.cpp">
+      <Filter>Source Files\Game\BaseObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files\Game\GameObjects\TextObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Points.cpp">
+      <Filter>Source Files\Game\GameObjects\TextObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureObject.cpp">
+      <Filter>Source Files\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCollisionManager.cpp">
+      <Filter>Source Files\Manages</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePositionManager.cpp">
+      <Filter>Source Files\Manages</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>Header Files\Game\GameStates\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionMenuState.h">
+      <Filter>Header Files\Game\GameStates\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>Header Files\Game\GameStates\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\Game\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\Game\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMovableObject.h">
+      <Filter>Header Files\Game\BaseObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlKeysEnum.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMenuState.h">
+      <Filter>Header Files\Game\BaseObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Lifebar.h">
+      <Filter>Header Files\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="EndGameState.h">
+      <Filter>Header Files\Game\GameStates\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Header Files\Game\GameObjects\SimpleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Life.h">
+      <Filter>Header Files\Game\GameObjects\SimpleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.h">
+      <Filter>Header Files\Game\GameObjects\SimpleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullet.h">
+      <Filter>Header Files\Game\GameObjects\SimpleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGameObject.h">
+      <Filter>Header Files\Game\BaseObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Points.h">
+      <Filter>Header Files\Game\GameObjects\TextObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files\Game\GameObjects\TextObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureObject.h">
+      <Filter>Header Files\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCollisionManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePositionManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

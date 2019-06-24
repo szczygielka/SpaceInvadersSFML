@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AssetManager&lt;T&gt;" Collapsed="true">
+    <Position X="27.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAQAAAAAABAgAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>AssetManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Background" Collapsed="true">
+    <Position X="10.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Background.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseGameObject" Collapsed="true">
+    <Position X="14" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAUAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>BaseGameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseMenuState">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAAAAAAAAAQAAAAgAQAAAAJACAAAAIAA=</HashCode>
+      <FileName>BaseMenuState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseMovableObject" Collapsed="true">
+    <Position X="15.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAEAAAAAAAAAAAAAAAAEAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>BaseMovableObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bullet" Collapsed="true">
+    <Position X="18" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAQAAA=</HashCode>
+      <FileName>Bullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Config" Collapsed="true">
+    <Position X="29.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICAIcBACAoWkQGnCHOYgiAQpibAgcCwwGCAgIQMIAwA=</HashCode>
+      <FileName>Config.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EndGameState">
+    <Position X="9.25" Y="7.25" Width="1.5" />
+    <InheritanceLine Type="BaseMenuState">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.255" Y="0.076" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAEACABAAAgAIAAAAQAAAAAAAAAAAAABACAAAAAAA=</HashCode>
+      <FileName>EndGameState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy" Collapsed="true">
+    <Position X="12.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAgAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyBullet" Collapsed="true">
+    <Position X="17" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAACAAAA=</HashCode>
+      <FileName>EnemyBullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="31.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameCollisionManager" Collapsed="true">
+    <Position X="27.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAACABIAACIAAAIAAAQAAIQAAAACAIAAAAAAAQAI=</HashCode>
+      <FileName>GameCollisionManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameData" Collapsed="true">
+    <Position X="29.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAgCAAAACAIAAAAAAAAFACARAAYAAAAAAAAA=</HashCode>
+      <FileName>GameData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GamePositionManager" Collapsed="true">
+    <Position X="31.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAQBAAAABIACCKIAAQAgAwAAAQCAAAgAIAICABABIAI=</HashCode>
+      <FileName>GamePositionManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameState">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAGABIAACAJCAICAAQAAIQgAAAAAIBACAAAAIAI=</HashCode>
+      <FileName>GameState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Life" Collapsed="true">
+    <Position X="21.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Life.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lifebar" Collapsed="true">
+    <Position X="23.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAACBAACAAAAAAAIAAAAgoAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Lifebar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenuState">
+    <Position X="4" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAACYBAEAACIEAAAAAAAAAAAAABACAAAAAAA=</HashCode>
+      <FileName>MainMenuState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OptionMenuState">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEUAAAGAAACAAAEAQAAAAAAAAAAAAAAAABACAAAAAAA=</HashCode>
+      <FileName>OptionMenuState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseState">
+    <Position X="7.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAACCAAAAAAAAAAAAEAAAAAABAAAQABACAABAAAA=</HashCode>
+      <FileName>PauseState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="14.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAMAABAAAAAAAAAAAAAAAAAAAgAAAAQAAABE=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerBullet" Collapsed="true">
+    <Position X="19.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>PlayerBullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Points" Collapsed="true">
+    <Position X="8" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAACAAAAAhABAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Points.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAAAAAAAAAAAAAAAAAAAAABACAAAAAAA=</HashCode>
+      <FileName>State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAJAABAAAAABAAAAAAAAAAAACAAAEAIAAAAAACIA=</HashCode>
+      <FileName>StateMachine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Text" Collapsed="true">
+    <Position X="8" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAQEgAAAIAIAAEAAAAAAAAIABgACAAAAAA=</HashCode>
+      <FileName>Text.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureObject" Collapsed="true">
+    <Position X="15.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAgAAAAAAAAAAABAAAgAAIBAKIoEAAAQ=</HashCode>
+      <FileName>TextureObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CONTROL_KEYS" Collapsed="true">
+    <Position X="27.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAQAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>ControlKeysEnum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
